@@ -14,30 +14,30 @@ function preload() {
   soundFiles.push(loadSound('Y2meta.app - Kanye West - Heartless (128 kbps).mp3'));
 
   // 이미지 로드
-  images["C3"] = loadImage('blue1.png');
-  images["D3"] = loadImage('green1.png');
-  images["E3"] = loadImage('orange1.png');
-  images["F3"] = loadImage('red1.png');
-  images["G3"] = loadImage('yellow1.png');
-  images["A3"] = loadImage('연보라1.png');
-  images["B3"] = loadImage('청록1.png');
-  images["C4"] = loadImage('blue2.png');
-  images["D4"] = loadImage('green2.png');
-  images["E4"] = loadImage('orange2.png');
-  images["F4"] = loadImage('red2.png');
-  images["G4"] = loadImage('yellow2.png');
-  images["A4"] = loadImage('연보라2.png');
-  images["B4"] = loadImage('청록2.png');
-  images["C5"] = loadImage('blue3.png');
-  images["D5"] = loadImage('green3.png');
-  images["E5"] = loadImage('orange3.png');
-  images["F5"] = loadImage('red3.png');
-  images["G5"] = loadImage('greenblue1.png');
-  images["A5"] = loadImage('보라3.png');
-  images["B5"] = loadImage('초록3.png');
-  images["C6"] = loadImage('파란3.png');
-  images["D6"] = loadImage('보라2.png');
-  images["E6"] = loadImage('greenblue3.png');
+  images["C3"] = loadImage('assets/blue1.png');
+  images["D3"] = loadImage('assets/green1.png');
+  images["E3"] = loadImage('assets/orange1.png');
+  images["F3"] = loadImage('assets/red1.png');
+  images["G3"] = loadImage('assets/yellow1.png');
+  images["A3"] = loadImage('assets/연보라1.png');
+  images["B3"] = loadImage('assets/청록1.png');
+  images["C4"] = loadImage('assets/blue2.png');
+  images["D4"] = loadImage('assets/green2.png');
+  images["E4"] = loadImage('assets/orange2.png');
+  images["F4"] = loadImage('assets/red2.png');
+  images["G4"] = loadImage('assets/yellow2.png');
+  images["A4"] = loadImage('assets/연보라2.png');
+  images["B4"] = loadImage('assets/청록2.png');
+  images["C5"] = loadImage('assets/blue3.png');
+  images["D5"] = loadImage('assets/green3.png');
+  images["E5"] = loadImage('assets/orange3.png');
+  images["F5"] = loadImage('assets/red3.png');
+  images["G5"] = loadImage('assets/greenblue1.png');
+  images["A5"] = loadImage('assets/보라3.png');
+  images["B5"] = loadImage('assets/초록3.png');
+  images["C6"] = loadImage('assets/파란3.png');
+  images["D6"] = loadImage('assets/보라2.png');
+  images["E6"] = loadImage('assets/greenblue3.png');
 }
 
 function setup() {
