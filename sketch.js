@@ -3,7 +3,7 @@ let currentSoundIndex = 0;
 let fft;
 let cnv;
 let pixelIndex = 0;
-let images = {}; // 이미지 저장할 객체
+let images = {}; 
 const blockSize = 4;
 
 function preload() {
@@ -49,7 +49,7 @@ function setup() {
 
   // 각 사운드 파일에 대한 볼륨 조절
   for (let i = 0; i < soundFiles.length; i++) {
-    soundFiles[i].setVolume(0.2); // 볼륨을 0.2로 설정 (필요에 따라 조절)
+    soundFiles[i].setVolume(0.2); 
   }
 }
 
@@ -123,7 +123,7 @@ function togglePlay() {
     currentSound.stop();
   } else {
     currentSound.loop();
-    // 사운드 파일 종료시 다음 사운드 파일 재생 또는 첫 번째로 돌아가기 설정
+    
     currentSound.onended(playNextSound);
   }
 }
